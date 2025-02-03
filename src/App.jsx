@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar.jsx"
 import Hero from "./components/Hero.jsx"
 import Feature from "./components/Feature.jsx"
 import Workflow from "./components/Workflow.jsx"
+import Pricing from "./components/Pricing.jsx"
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
       <Feature />
 
       <Workflow/>
+
+      <Pricing/>
     </div>
   )
 }
